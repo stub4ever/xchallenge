@@ -1,0 +1,31 @@
+$black: #1B1818;
+$grey: #888888;
+
+.list-name {
+  margin-top:25px;
+}
+
+.list-group{
+  float:left;
+  width: 25%;
+}
+
+.list-select {
+  color: $grey;
+  text-decoration: none;
+  flex-direction: column;
+  justify-content: space-around;
+  display: flex;
+  height: 40px;
+
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -ms-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+.list-select:hover {
+  font-size: 1.1rem;
+  color: black;
+}
